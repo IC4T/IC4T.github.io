@@ -31,7 +31,7 @@
   <!-- Material Kit-->
   <link type="text/css" href="./assets/css/material-kit-pro.min.css" rel="stylesheet">
 </head>
-<body>
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
   <!-- -------- START HEADER 3 w/ image on background ------- -->
   <header>
     <!-- Navbar Dark -->
@@ -108,7 +108,7 @@
     </div>
     </nav>
     <!-- End Navbar -->
-    <div class="page-header min-vh-50" style="background-image: url(./assets/img/back_ic4t.jpg);" loading="lazy">
+    <div oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="page-header min-vh-50" style="background-image: url(./assets/img/back_ic4t.jpg);" loading="lazy">
       <span class="mask bg-gradient-dark opacity-4"></span>
       <!-- <div class="container">
         <div class="row justify-content-center">
@@ -134,7 +134,12 @@
   <section class="py-5">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-5 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
+        <!-- <div class="col-md-5 col-6 mx-lg-0 mx-auto px-lg-0 px-md-0 my-auto">
+          <img oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="max-width-400 border-radius-lg shadow-lg" src="./assets/img/logo_org1.jpg">
+        </div> -->
+        <div class="col-md-50 col-10 d-flex justify-content-center flex-column mx-auto text-lg-start text-center">
+          <img oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="max-width-400 border-radius-lg shadow-lg" src="./assets/img/logo_org1.jpg">
+
           <h2 class="mb-1 text-gradient text-primary font-weight-bold text-uppercase">關於我們</h2>
           <p class="mb-2" align="justify">該協會是合法建立的非營利性社會組織 ( 台內團字第1100024837號 )。它弘揚社區精神，弘揚社區文化理念，並實踐伊斯蘭文化成為居民/公民的榜樣，為生活環境做出貢獻並產生積極影響。本會以全國行政區域為組織區域。本會之主管機關為內政部。本會之目的事業應受各該事業主管機關之指導、監督。</p>
 
@@ -176,9 +181,7 @@
             </small>
           </p> -->
         </div>
-        <div class="col-md-5 col-6 mx-lg-0 mx-auto px-lg-0 px-md-0 my-auto">
-          <img class="max-width-400 border-radius-lg shadow-lg" src="./assets/img/logo_org1.jpg">
-        </div>
+       
       </div>
     </div>
   </section>
@@ -202,7 +205,7 @@
               臺北市中正區忠孝東路1段152號12楼之5 <br>
               <!-- 12F-5, No. 152, Section 1, Zhongxiao East Road, Zhongzheng District, Taipei City - Taiwan (R.O.C) <br>  -->
               電話號碼: 0974076060 / 0962038687 <br>
-              電子郵件: islamicculturefortaiwan@gmail.com
+              電子郵件: islamicculturefortaiwan@gmail.com <br>
               <a href="https://www.facebook.com/islamicculturetaiwan"><i class="fab fa-facebook text-white me-5"></i></a>
             </p>
           </div>

@@ -108,7 +108,7 @@
     </div>
     </nav>
     <!-- End Navbar -->
-    <div class="page-header min-vh-50" style="background-image: url(./assets/img/back_ic4t.jpg);" loading="lazy">
+    <div oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="page-header min-vh-50" style="background-image: url(./assets/img/back_ic4t.jpg);" loading="lazy">
       <span class="mask bg-gradient-dark opacity-4"></span>
       <!-- <div class="container">
         <div class="row justify-content-center">
@@ -133,7 +133,7 @@
 
   
   <!-- START Testimonials w/ bg image & faded gradient & company logo -->
-  <section class="py-5 position-relative">
+  <section oncontextmenu="return false" onselectstart="return false" ondragstart="return false" class="py-5 position-relative">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-10 mx-auto">
@@ -149,12 +149,20 @@
                   <div class="row h-100">
                     
                     <div class="col-xl-6 my-auto px-7 mt-md-auto mt-4">
-                      <video src="./assets/video/eidmubarak_taipei_2022_1.mp4" controls autoplay controlsList="nodownload"></video>
+                      <video  controls autoplay controlsList="nodownload" src="./assets/video/eidmubarak_taipei_2022_1.mp4"></video>
                       <style>
                           video {
                             width: 100%    !important;
                             height: auto   !important;
                             object-fit: fill;
+                          }
+
+                          video::-internal-media-controls-download-button {
+                              display:none;
+                          }
+
+                          video::-webkit-media-controls-enclosure {
+                              overflow:hidden;
                           }
                       </style>
                       <!-- <video min-height="100%" min-width="100%" autoplay>
@@ -229,7 +237,7 @@
               臺北市中正區忠孝東路1段152號12楼之5 <br>
               <!-- 12F-5, No. 152, Section 1, Zhongxiao East Road, Zhongzheng District, Taipei City - Taiwan (R.O.C) <br>  -->
               電話號碼: 0974076060 / 0962038687 <br>
-              電子郵件: islamicculturefortaiwan@gmail.com
+              電子郵件: islamicculturefortaiwan@gmail.com <br>
               <a href="https://www.facebook.com/islamicculturetaiwan"><i class="fab fa-facebook text-white me-5"></i></a>
             </p>
           </div>
